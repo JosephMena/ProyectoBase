@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "assets/css/estilos2000.css" (max-width: 2000px);
+@import "assets/css/estilos1700.css" (max-width: 1700px);
+@import "assets/css/estilos1500.css" (max-width: 1500px);
+@import "assets/css/estilos1300.css" (max-width: 1300px);
+@import "assets/css/estilos1200.css" (max-width: 1200px);
