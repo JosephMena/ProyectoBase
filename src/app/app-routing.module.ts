@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router';
-import { ListaCursosComponent } from './lista-cursos/lista-cursos.component';
+import { ListaCursosComponent } from './componentes/flujo/lista-cursos/lista-cursos.component';
 
 const routes: Routes = [
   { path: 'cursos', component: ListaCursosComponent}
@@ -9,6 +9,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],
-  exports: [RouterModule]
+  exports: [ RouterModule ]
 })
 export class AppRoutingModule { }

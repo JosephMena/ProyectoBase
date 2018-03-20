@@ -4,17 +4,17 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { AppNavbarComponent } from './app-navbar/app-navbar.component';
-import { ListaCursosComponent } from './lista-cursos/lista-cursos.component';
-import { MenuComponent } from './menu/menu.component';
+import { ListaCursosComponent } from './componentes/flujo/lista-cursos/lista-cursos.component';
+import { MenuComponent } from './plantilla/menu/menu.component';
+import { PiePaginaComponent } from './plantilla/pie-pagina/pie-pagina.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AppNavbarComponent,
+    AppComponent,    
     ListaCursosComponent,
-    MenuComponent
+    MenuComponent,
+    PiePaginaComponent
   ],
   imports: [
     BrowserModule,
